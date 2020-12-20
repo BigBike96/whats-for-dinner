@@ -94,6 +94,12 @@ nav {
   padding: 18em;
 }
 
+.you-should-make {
+  display: flex;
+  font-size: 5em;
+  padding: 1em;
+}
+
 /*
 COLORS
 teal - #0fb9b1;
