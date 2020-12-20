@@ -5,12 +5,15 @@ var desertButton = document.querySelector('.desert');
 
 var letsCookButton = document.querySelector('.lets-cook');
 
+var suggestedFood = document.querySelector('.suggested-food');
+
+var randomFood = '';
 
 // event listeners below
 // needed for radio buttons
-sideButton.addEventListener('click', chooseSideOption);
-mainDishButton.addEventListener('click', chooseMainDishOption);
-desertButton.addEventListener('click', chooseDesertOption);
+sideButton.addEventListener('checked', chooseSideOption);
+mainDishButton.addEventListener('checked', chooseMainDishOption);
+desertButton.addEventListener('checked', chooseDesertOption);
 
 // needed for let's cook button
 letsCookButton.addEventListener('click', displayYouShouldMake);
@@ -25,22 +28,27 @@ letsCookButton.addEventListener('click', displayYouShouldMake);
 // need to return a string value in right box which will replace the current pot icon displayed
 
 function chooseSideOption() {
-
+  var food = sides[getRandomIndex('sides')];
+  console.log(food);
+  if (randomFood === sides) {
+    randomFood = sides[getRandomIndex('sides')];
+  }
 }
 
 function chooseMainDishOption() {
-
+  mainFood.innerText = mains[getRandomIndex(mains)];
 }
 
 function chooseDesertOption() {
-
+  desertFood.innerText = desserts[getRandomIndex(desserts)];
 }
 
 function displayYouShouldMake() {
-
+  randomFood = suggestedFood;
+  console.log(suggestedFood);
 }
 
 
-function getRandomIndex(array) {
-  return Math.floor(Math.random() * array.length);
+function getRandomIndex(food) {
+  return Math.floor(Math.random() * food.length);
 }
