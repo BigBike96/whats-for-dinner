@@ -24,7 +24,21 @@ letsCookButton.addEventListener('click', displayYouShouldMake);
 // need to select a radio button that will return a random food string result
 // need to return a string value in right box which will replace the current pot icon displayed
 
+function chooseSideOption() {
 
+}
+
+function chooseMainDishOption() {
+
+}
+
+function chooseDesertOption() {
+
+}
+
+function displayYouShouldMake() {
+
+}
 
 
 function getRandomIndex(array) {
