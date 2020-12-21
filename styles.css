@@ -8,7 +8,6 @@ body {
 nav {
   background-color: #0fb9b1;
   height: 5.5em;
-
 }
 
 .page-name {
@@ -16,7 +15,6 @@ nav {
   font-family: 'Roboto', sans-serif;
   border: 0 auto;
   padding: .7em;
-
 }
 
 .add-recipe {
@@ -25,16 +23,13 @@ nav {
   padding: .6em;
   border: none;
   font-size: .5em;
-
 }
-
 
 .main-image {
   position: absolute;
   height: auto;
   width: 100%;
   z-index: 1;
-
 }
 
 .box {
@@ -46,7 +41,6 @@ nav {
   width: 84%;
   margin: auto;
   padding: 6% 0;
-
 }
 
 .left {
@@ -56,7 +50,6 @@ nav {
   font-size: 1.5em;
   font-family: 'Roboto', sans-serif;
   padding: 1em;
-
 }
 
 .right {
@@ -64,7 +57,6 @@ nav {
   width: 40%;
   content: inherit;
   font-size: .5em;
-
 }
 
 .looking-for {
@@ -113,12 +105,3 @@ nav {
 .hidden {
   display: none;
 }
-
-/*
-COLORS
-teal - #0fb9b1;
-frosted white - rgba(225, 225, 225, .9);
-grey - #95a5a6;
-red - #ee5253
-
-*/
