@@ -11,17 +11,17 @@ letsCookButton.addEventListener('click', displayYouShouldMake);
 
 function chooseSideOption() {
   var food = sides[getRandomIndex(sides)];
-  suggestedFood.innerText = `${food}`;
+  suggestedFood.innerText = `${food}!`;
 }
 
 function chooseMainDishOption() {
   var food = mains[getRandomIndex(mains)];
-  suggestedFood.innerText = `${food}`;
+  suggestedFood.innerText = `${food}!`;
 }
 
 function chooseDesertOption() {
   var food = desserts[getRandomIndex(desserts)];
-  suggestedFood.innerText = `${food}`;
+  suggestedFood.innerText = `${food}!`;
 }
 
 function displayYouShouldMake() {
