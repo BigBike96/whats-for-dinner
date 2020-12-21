@@ -21,3 +21,8 @@ To set this up locally, clone down the repository to your terminal. `CD` into th
 * JavaScript
 * CSS
 * HTML
+
+## Images
+file:///Users/jimcharnesky/Desktop/Screen%20Shot%202020-12-20%20at%208.52.48%20PM.png
+file:///Users/jimcharnesky/Desktop/Screen%20Shot%202020-12-20%20at%208.52.56%20PM.png
+file:///Users/jimcharnesky/Desktop/Screen%20Shot%202020-12-20%20at%208.53.04%20PM.png
