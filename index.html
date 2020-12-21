@@ -4,15 +4,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- The nav element will contain a title on the left, and an ADD A RECIPIE button on the right -->
     <nav>
       <h3 class="page-name">What's for Dinner?
         <button class="add-recipe" type="button">ADD A RECIPE</button>
       </h3>
     </nav>
-    <!-- The main will have a picture for a background, and will contain 2 large semi-opaque boxes -->
-    <!-- A section for the large boxes  -->
-      <!-- <section> -->
     <main class="main-area">
       <img class="main-image" src="./assets/burger-friends.jpg">
       <div class="box">
@@ -28,9 +24,13 @@
         </div>
         <div class="right">
           <img class="pot" src="./assets/cookpot.svg">
+          <section class="you-should-make hidden">
+            <h4>You should make:<br><span class="suggested-food">food</span></h4>
+          </section>
         </div>
       </div>
     </main>
   </body>
   <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="data.js"></script>
 </html>
