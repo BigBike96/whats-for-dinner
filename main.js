@@ -4,6 +4,8 @@ var mainDishButton = document.querySelector('.main-dish');
 var desertButton = document.querySelector('.desert');
 var letsCookButton = document.querySelector('.lets-cook');
 var suggestedFood = document.querySelector('.suggested-food');
+var shouldMakeMessage = document.querySelector('.you-should-make');
+var cookPotIcon = document.querySelector('.pot');
 
 letsCookButton.addEventListener('click', displayYouShouldMake);
 
@@ -23,6 +25,8 @@ function chooseDesertOption() {
 }
 
 function displayYouShouldMake() {
+  cookPotIcon.classList.add('hidden');
+  shouldMakeMessage.classList.remove('hidden');
   if (sideButton.checked === true) {
     chooseSideOption();
   } else if (mainDishButton.checked === true) {
