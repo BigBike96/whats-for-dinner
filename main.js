@@ -1,4 +1,3 @@
-// global variables below
 var sideButton = document.querySelector('.side');
 var mainDishButton = document.querySelector('.main-dish');
 var desertButton = document.querySelector('.desert');
